@@ -671,6 +671,13 @@ h4 {
     justify-content: center;
     transition: box-shadow 500ms, transform 500ms;
   }
+  .project_ss_cont {
+    width: 80%;
+    height: 250px;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
   .contact .contact-info-item {
     flex: 0 0 50%;
     max-width: 50%;
@@ -705,6 +712,15 @@ h4 {
     justify-content: center;
     transition: box-shadow 500ms, transform 500ms;
   }
+
+  .project_ss_cont {
+    width: 80%;
+    height: 200px;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
   .contact .contact-info-item {
     flex: 0 0 100%;
     max-width: 100%;
