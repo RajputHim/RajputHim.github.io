@@ -672,7 +672,7 @@ h4 {
     transition: box-shadow 500ms, transform 500ms;
   }
   .project_ss_cont {
-    width: 80%;
+    width: 95%;
     height: 250px;
     max-width: 1000px;
     position: relative;
@@ -685,7 +685,7 @@ h4 {
   }
 }
 
-@media all and (min-width: 360px) and (max-width: 600px) {
+@media all and (min-width: 300px) and (max-width: 600px) {
   .home .home-info {
     flex: 0 0 100%;
     max-width: 100%;
@@ -714,7 +714,7 @@ h4 {
   }
 
   .project_ss_cont {
-    width: 80%;
+    width: 95%;
     height: 200px;
     max-width: 1000px;
     position: relative;
@@ -725,5 +725,11 @@ h4 {
     flex: 0 0 100%;
     max-width: 100%;
     margin-top: 40px;
+  }
+  .contact-title {
+    color: var(--skin-color);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
   }
 }
