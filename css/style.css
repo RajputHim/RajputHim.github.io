@@ -513,6 +513,15 @@ h3.my-profession {
   margin-top: 25px;
 }
 
+.live_link {
+  margin-left: 50px;
+  color: red;
+  font-size: 20px;
+}
+.live_link:hover {
+  color: green;
+}
+
 .project_ss_cont {
   width: 80%;
   height: 350px;
@@ -559,7 +568,7 @@ h3.my-profession {
   margin-left: 30px;
 }
 
-.site_name,
+/* .site_name,
 h4 {
   text-decoration: none;
   font-size: 20px;
@@ -567,7 +576,7 @@ h4 {
 }
 .site_name:hover {
   text-decoration: underline;
-}
+} */
 
 /* Contac styling */
 .contact-title {
