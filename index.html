@@ -11,11 +11,30 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <!-- <link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar.css"
+/> -->
     <title>Himanshu Rajput Portfolio</title>
   </head>
   <body>
     <!-- Main container start -->
     <div class="main-container">
+
+      <!-- navbar start -->
+
+      <header>
+        <a href="#home" class="logo"><i class="fa fa-laptop"></i></a>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </header>
+
+      <!-- navbar end -->
       <!-- aside start -->
       <div class="aside">
         <div class="logo">
@@ -404,6 +423,24 @@
           </div>
         </section>
         <!-- Projects section end -->
+        
+        
+        <!-- Stats section start -->
+        <section class="stats section">
+          
+          <div class="container">
+            <div class="row">
+              <div class="section-title padd-15">
+                <h2>GitHub Statistics</h2>
+              </div>
+            </div>
+            <div class="calendar padd-15">
+              <!-- Loading stuff -->
+              Loading the data just for you.
+            </div>
+          </div>
+        </section>
+        <!-- Stats section end -->
 
         <!-- Contact section start -->
         <section class="contact section" id="contact">
@@ -464,3 +501,17 @@
   </body>
 </html>
 <script src="js/script.js"></script>
+
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+
+<link
+   rel="stylesheet"
+   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+<script>
+    GitHubCalendar(".calendar", "RajputHim");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "RajputHim", { responsive: true });
+</script>
