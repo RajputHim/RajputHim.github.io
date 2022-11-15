@@ -505,6 +505,12 @@ h3.my-profession {
   margin-top: 25px;
 }
 
+#project_name {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
 .live_link {
   margin-left: 50px;
   color: red;
@@ -863,6 +869,11 @@ h4 {
     max-width: 1000px;
     position: relative;
     margin: auto;
+  }
+  #project_name {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 5px;
   }
   .contact .contact-info-item {
     flex: 0 0 50%;
