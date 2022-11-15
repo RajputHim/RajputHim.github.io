@@ -23,15 +23,20 @@
 
       <!-- navbar start -->
 
-      <header>
+      <header class="header ham_nav">
+        <!-- <a href="#home" class="logo"><i class="fa fa-laptop"></i></a> -->
         <a href="#home" class="logo"><i class="fa fa-laptop"></i></a>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#project">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a class="navigate1" href="#home">Home</a></li>
+          <li><a class="navigate2" href="#about">About</a></li>
+          <li><a class="navigate3" href="#tech_skills_link">Skills</a></li>
+          <li><a class="navigate4" href="#project">Projects</a></li>
+          <li><a class="navigate5" href="#contact">Contact</a></li>
+          <li><a class="resume-dwn navigate6" href="https://drive.google.com/uc?export=download&id=1pXpeWDXOUTX9uaq0YW93n-ceyMdLTmJ5" download="Himanshu_Rajput_Resume" >Resume</a></li>
         </ul>
+        
       </header>
 
       <!-- navbar end -->
@@ -125,7 +130,7 @@
                 <div class="row">
                   <div class="personal-info padd-15">
                     <div class="skills padd-15">
-                      <h4>Technical Skills</h4>
+                      <h4 id="tech_skills_link">Technical Skills</h4>
                       <div class="row">
                         <div class="skill-item padd-15">
                           <img src="./images/kisspng-java-runtime-environment-computer-icons-java-platf-java-5ade3063f31610.0948145615245108199957.png" alt="java logo">
@@ -438,6 +443,12 @@
               <!-- Loading stuff -->
               Loading the data just for you.
             </div>
+            <div id="stats_cont">
+              <p>
+                <img class="stats_calendar" src="https://github-readme-stats.vercel.app/api/top-langs?username=rajputhim&show_icons=true&locale=en&layout=compact" alt="rajputhim" />
+                <img class="stats_calendar" src="https://github-readme-stats.vercel.app/api?username=rajputhim&show_icons=true&locale=en" alt="rajputhim" />
+              </p>
+            </div>
           </div>
         </section>
         <!-- Stats section end -->
@@ -514,4 +525,31 @@
     GitHubCalendar(".calendar", "RajputHim");
     // or enable responsive functionality
     GitHubCalendar(".calendar", "RajputHim", { responsive: true });
+</script>
+
+<script>
+  document.querySelector(".navigate1").addEventListener("click" ,function(){
+    document.getElementById("menu-btn").checked = false;
+  });
+  document.querySelector(".navigate2").addEventListener("click" ,function(){
+    document.getElementById("menu-btn").checked = false;
+  });
+  document.querySelector(".navigate3").addEventListener("click" ,function(){
+    document.getElementById("menu-btn").checked = false;
+  });
+  document.querySelector(".navigate4").addEventListener("click" ,function(){
+    document.getElementById("menu-btn").checked = false;
+  });
+  document.querySelector(".navigate5").addEventListener("click" ,function(){
+    document.getElementById("menu-btn").checked = false;
+  });
+  document.querySelector(".navigate6").addEventListener("click" ,function(){
+    document.getElementById("menu-btn").checked = false;
+  });
+</script>
+
+<script>
+  document.querySelector(".resume-dwn").addEventListener("click" ,function(){
+      window.open("./component/Himanshu_Rajput_Resume.pdf","_blank");
+  });
 </script>
