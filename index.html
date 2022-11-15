@@ -56,7 +56,7 @@
             <a href="#about"><i class="fa fa-user"></i>About</a>
           </li>
           <li>
-            <a href="#education"><i class="fa fa-school"></i>Education</a>
+            <a href="#education"><i class="fa fa-school"></i>Skills</a>
           </li>
           <li>
             <a href="#project"><i class="fa fa-list"></i>Projects</a>
@@ -65,7 +65,7 @@
             <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
           </li>
           <li>
-            <a href="https://drive.google.com/uc?export=download&id=1pXpeWDXOUTX9uaq0YW93n-ceyMdLTmJ5" class="btn" style="color: white;"> <i class="fa-solid fa-file-pdf"></i>Download Resume</a>
+            <a href="https://drive.google.com/uc?export=download&id=1pXpeWDXOUTX9uaq0YW93n-ceyMdLTmJ5" class="btn" id="resume_view" style="color: white;"> <i class="fa-solid fa-file-pdf"></i>Download Resume</a>
           </li>
         </ul>
       </div>
@@ -245,6 +245,78 @@
               </div>
             </div>
             <div class="row">
+              <div class="project_cont" id="project_sec">
+                <div class="project_ss_cont shadow-dark">
+                  <div class="slide3">
+                    <img
+                      src="./images/ProjectSS/Screenshot (75).png"
+                      alt="Payment wallet application Screenshot"
+                    />
+                  </div>
+                  <div class="slide3">
+                    <img
+                      src="./images/ProjectSS/Screenshot (76).png"
+                      alt="Payment wallet application Screenshot"
+                    />
+                  </div>
+                  <div class="slide3">
+                    <img
+                      src="./images/ProjectSS/Screenshot (77).png"
+                      alt="Payment wallet application Screenshot"
+                    />
+                  </div>
+                  <div class="slide3">
+                    <img
+                      src="./images/ProjectSS/Screenshot (78).png"
+                      alt="Payment wallet application Screenshot"
+                    />
+                  </div>
+                  <div class="slide3">
+                    <img
+                      src="./images/ProjectSS/Screenshot (79).png"
+                      alt="Payment wallet application Screenshot"
+                    />
+                  </div>
+                  <div class="slide3">
+                    <img
+                      src="./images/ProjectSS/Screenshot (80).png"
+                      alt="Payment wallet application Screenshot"
+                    />
+                  </div>
+
+                </div>
+                <div class="project_info">
+                  <!-- <a
+                    class="site_name"
+                    href="https://peaceful-scone-c5d9bd.netlify.app/"
+                    target="_blank"
+                    ><h4>NordStrom Site Clone</h4></a
+                  > -->
+                  <h4>Payment Wallet Application</h4>
+                  <a href="https://github.com/Kapil7982/celestial-front-4775" target="_blank"><i class="fa fa-github"> Github</i></a>
+                  <a href="https://drive.google.com/file/d/1FLDppGD075tO0lfZqz0Bh2jkQGlrNDjx/view?usp=sharing" target="_blank" class="live_link">Video</a>
+                  <p>
+                    REST API Application for online payment wallet application which can be used by bank's customers for different services like create bank account, login and SignUp to account, create wallet from bank account, add money to wallet, Billpayment from wallet, get transaction details from wallet etc.
+                  </p>
+                  <h4>Tech Stack : </h4>
+                  <ul>
+                    <li>Java</li>
+                    <li>SpringBoot</li>
+                    <li>Maven</li>
+                    <li>JPQL</li>
+                    <li>Swagger</li>
+                    <li>MySQL</li>
+                    <li>JDBC</li>
+                  </ul>
+                  <h4>Area of Responsibility : </h4>
+                  <ul>
+                    <li>Transaction Model</li>
+                    <li>Add Transaction</li>
+                    <li>View Transactions</li>
+                  </ul>
+                  <h4>Duration : </h4>
+                  <span>Built within 1 week along with a team of 5 developers.</span>
+                </div>
               <div class="project_cont" id="project_sec">
                 <div class="project_ss_cont shadow-dark">
                   <div class="slide">
@@ -550,6 +622,9 @@
 
 <script>
   document.querySelector(".resume-dwn").addEventListener("click" ,function(){
+      window.open("./component/Himanshu_Rajput_Resume.pdf","_blank");
+  });
+  document.querySelector("#resume_view").addEventListener("click" ,function(){
       window.open("./component/Himanshu_Rajput_Resume.pdf","_blank");
   });
 </script>
