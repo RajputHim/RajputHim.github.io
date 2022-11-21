@@ -384,7 +384,7 @@ h3.my-profession {
 .about .about-content .skills .skill-item {
   flex: 0 0 15%;
   max-width: 15%;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   margin-top: 15px;
   display: flex;
   justify-content: center;
