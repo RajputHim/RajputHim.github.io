@@ -158,7 +158,7 @@ environment. . .
                     
                     <div class="row">
                       <div class="buttons padd-15">
-                        <a href="https://drive.google.com/uc?export=download&id=1pXpeWDXOUTX9uaq0YW93n-ceyMdLTmJ5" class="btn resume-dwn" id="resume_view2" style="color: white;"></i>Download Resume</a>
+                        <a href="https://drive.google.com/uc?export=download&id=1pXpeWDXOUTX9uaq0YW93n-ceyMdLTmJ5" class="btn resume-dwn2" style="color: white;"></i>Download Resume</a>
                       </div>
                     </div>
                   </div>
@@ -579,6 +579,9 @@ environment. . .
 </script>
 
 <script>
+  document.querySelector(".logo").addEventListener("click" ,function(){
+    document.getElementById("menu-btn").checked = false;
+  });
   document.querySelector(".navigate1").addEventListener("click" ,function(){
     document.getElementById("menu-btn").checked = false;
   });
@@ -603,10 +606,7 @@ environment. . .
   document.querySelector(".resume-dwn").addEventListener("click" ,function(){
       window.open("./component/Himanshu_Rajput_Resume.pdf","_blank");
   });
-  document.querySelector("#resume_view").addEventListener("click" ,function(){
-      window.open("./component/Himanshu_Rajput_Resume.pdf","_blank");
-  });
-  document.querySelector("#resume_view2").addEventListener("click" ,function(){
+  document.querySelector(".resume-dwn2").addEventListener("click" ,function(){
       window.open("./component/Himanshu_Rajput_Resume.pdf","_blank");
   });
 </script>
